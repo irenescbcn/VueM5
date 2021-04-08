@@ -1,0 +1,12 @@
+@mixin allStrips ($width) {
+    height: $height;
+    width: $width;
+    display: flex;
+    text-align: $text-align;
+    overflow: hidden;
+}
+
+@mixin flex {
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
